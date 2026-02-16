@@ -1,13 +1,13 @@
-Project Documentation: Python Network Port Scanner
+**Project Documentation: Python Network Port Scanner**
 
 
 
-Project Overview
+**Project Overview**
 
 This project is a custom-engineered network reconnaissance tool developed to audit the attack surface of a given host. The script identifies active services and potential security vulnerabilities, providing a foundational layer for network security assessments. This project was driven by a curiosity regarding network architecture and how foundational Python concepts can be applied to cybersecurity tasks.
 
 
-Technical Specifications
+**Technical Specifications**
 
 Language: Python 3.x
 Library: socket (for access to the internet)
@@ -16,7 +16,7 @@ Interface: VsCode
 Output: Console logging and persistent .txt audit reports
 
 
-Core Features
+**Core Features**
 
 Automates the testing of a user-defined range of ports (e.g., 20–100) using a for loop.
 
@@ -30,7 +30,7 @@ Implements a 0.5-second timeout per port to balance scanning speed with network 
 Generates a timestamped scan_report.txt file containing the target IP, port range, and the status of every scanned port.
 
 
-Usage Instructions
+**Usage Instructions**
 
 
 Open the terminal in VS Code.
